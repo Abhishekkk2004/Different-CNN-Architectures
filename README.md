@@ -269,4 +269,3 @@ This README traces the development of notable convolutional neural network (CNN)
 
 ---
 
-Let me know if you'd like help adding performance tables, diagrams, or extending this to more recent models (e.g. EfficientNet, Vision Transformers, etc.).
