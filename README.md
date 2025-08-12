@@ -11,10 +11,14 @@ This README traces the development of notable convolutional neural network (CNN)
 - Problems it addressed compared to its predecessors
 
 ---
-I have performed an experiment in the jupyter notebook given where used [Kaggle Dataset]((https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset)) to perform a 5 class classification. An important thing to note that we can see all the models performance are around 85-90%. The purpose of this notebook is not to focus on the accuracy, it is to learn about the CNN architectures, how to load their pre-trained weights and how to perform fine-tuning. Regarding the training I have trained most of them for around 5 epochs with a very small batch size due to computational resource issues. Regarding the accuracy improvement, my suggestion would be to do hyperparameter tuning, and surely we can achieve very high accuracies accordingly.
+I have performed an experiment in the jupyter notebook given where I used a kaggle dataset to perform a 5 class classification. An important thing to note that we can see all the models performance are around 85-90%. The purpose of this notebook is not to focus on the accuracy, it is to learn about the CNN architectures, how to load their pre-trained weights and how to perform fine-tuning. Regarding the training I have trained most of them for around 5 epochs with a very small batch size due to computational resource issues. Regarding the accuracy improvement, my suggestion would be to do hyperparameter tuning, and surely we can achieve very high accuracies accordingly.
 I am attaching the performance of all the models
 <img width="1276" height="918" alt="image" src="https://github.com/user-attachments/assets/16868178-af66-4818-b693-7650a0fc91cd" />
 Best performance is by SENet Architecture achieving a validation accuracy of about 89.40%
+
+The dataset used in this project is the **5 Flower Types Classification Dataset** available on Kaggle.
+
+[Kaggle Dataset: 5 Flower Types Classification Dataset](https://www.kaggle.com/datasets/kausthubkannan/5-flower-types-classification-dataset)
 
 
 ## 1. AlexNet (~61 M parameters)
